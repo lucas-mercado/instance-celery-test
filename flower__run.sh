@@ -1,0 +1,1 @@
+sudo docker run --name flower1.0 --network="host" mher/flower --broker=redis://localhost:6380 --port=5555 
